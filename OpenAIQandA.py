@@ -22,6 +22,10 @@
 #    "total_tokens": 146
 #  }
 # }
+#
+# how to set an environment variable from the command line:
+# export ENVVARIABLE="VALUE"
+
 
 import os
 import openai # install via python -m pip install openai
@@ -46,3 +50,7 @@ print(response)
 
 print("\nOpenAI Answer:")
 print(response["choices"][0]["text"])
+
+# try to print out response list components using For loop
+for iter_var in response:
+  print("Response list info during traversal is: ", iter_var)
