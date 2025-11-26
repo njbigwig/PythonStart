@@ -1,0 +1,17 @@
+# Core runtime
+pandas
+requests
+numpy
+tqdm
+matplotlib
+
+# Useful analysis / visualization
+seaborn
+folium
+
+# Census API helpers (optional; you can use requests instead)
+censusdata
+us
+
+# Optional geospatial analysis (recommended via conda; see notes below)
+geopandas
