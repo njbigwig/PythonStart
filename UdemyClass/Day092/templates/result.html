@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Top 10 Colors</h2>
+    <ul>
+      {% for c in colors %}
+        <li style="background-color: rgb{{c.color}}; padding:10px;">
+          {{c.color}} - {{c.count}} pixels
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
